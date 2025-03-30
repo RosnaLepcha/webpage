@@ -1,0 +1,53 @@
+body {
+    background-color: #f0ddea;
+    font-family: 'news times roman', sans-serif;
+}
+
+.header {
+    
+    background-color: #a8238b;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    
+    
+}
+.image{
+    
+    border-radius: 50%;
+}
+.gallery {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    
+}
+.gallery img{
+    width:120%;
+    height:300px;
+    object-fit:cover;
+    
+    
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #ac1d94;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
